@@ -11,6 +11,17 @@ body {
   justify-content: center;
 }
 
+h1 {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  font-size: 180px;
+  font-weight: bold;
+  color: #EB6057;
+  opacity: 0.2;
+
+}
+
 h2 {
   font-family: PT Sans Caption;
   font-size: 26px;
