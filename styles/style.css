@@ -127,8 +127,8 @@ nav {
   top: 1251.14px;
 }
 
-.mainSection .center {
-  padding: 0;
+.center {
+  padding-top: 60px;
 }
 
 .center .text {
@@ -146,6 +146,7 @@ nav {
 footer {
   display: flex;
   justify-content: center;
+  padding-bottom: 60px;
 }
 
 .btnlight {
