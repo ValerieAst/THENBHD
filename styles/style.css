@@ -1,0 +1,128 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Caption');
+
+body {
+  font-family: PT Sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-family: PT Sans Caption;
+  font-size: 26px;
+
+  color: #000000;
+}
+
+p {
+  font-family: PT Sans;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  min-width: 768px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+}
+
+.menubar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  padding: 20px;
+}
+
+.menubar a {
+  font-family: PT Sans Caption;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.mainSection {
+  height: 480px;
+}
+
+.left .text {
+  margin: 75px 0 0 90px;
+}
+
+.text h2 {
+  padding-bottom: 20px;
+}
+
+.text p {
+  padding-bottom: 60px;
+}
+
+.logo {
+  font-family: PT Sans Caption;
+  font-weight: bold;
+  font-size: 23px;
+  letter-spacing: 0.015em;
+
+  margin-left: -30px;
+}
+
+.picture {
+  position: absolute;
+
+}
+
+#picture1 {
+  width: 561.5px;
+  height: 470px;
+  left: 540px;
+  top: 100px;
+}
+
+.right .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 75px 90px 0 0;
+}
+
+.house {
+  margin-right: 20px;
+}
+
+#picture2 {
+  left: 30px;
+  top: 650px;
+}
+
+.mainSection + .mainSection {
+  padding-bottom: 90px;
+}
+
+.black {
+  color: #00000;
+}
+
+.white {
+  color: #FFFFFF;
+
+  text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+#picture3 {
+  left: 540px;
+  top: 1251.14px;
+}
