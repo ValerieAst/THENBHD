@@ -126,3 +126,52 @@ nav {
   left: 540px;
   top: 1251.14px;
 }
+
+.mainSection .center {
+  padding: 0;
+}
+
+.center .text {
+  text-align: center;
+}
+
+.center h2 {
+  font-size: 28px;
+}
+
+.center p {
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.btnlight {
+  margin-right: 10px;
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  background: #FFFFFF;
+  border: 1px solid #BDBDBD;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 35px;
+  color: #BDBDBD;
+}
+
+.btngrey {
+  margin-left: 10px;
+  width: 250px;
+  height: 40px;
+  background: #BDBDBD;
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 35px;
+  color: #FFFFFF;
+}
